@@ -1,25 +1,26 @@
-404Bit Studios – Terms of Service (TOS)
+404Bit Studios – Universal Terms of Service (TOS)
 Last Updated: 10 May 2026
 
 1. Acceptance of Terms
-By accessing or using any products, services, websites, software, or digital content provided by 404Bit Studios (“the Studio”), you agree to be bound by these Terms of Service.
-If you do not agree, you may not use or access any Studio services.
+By accessing or using any product, service, website, software, tool, or digital content created by 404Bit Studios (“the Studio”), you agree to these Terms of Service.
+If you do not agree, you may not use Studio services.
 
-2. About 404Bit Studios
-404Bit Studios is an independent game development studio focused on creating sandbox‑style, systems‑driven games, tools, prototypes, and digital experiences.
-The Studio may offer:
+2. Scope of Services
+These Terms apply to all Studio creations, including but not limited to:
 
-Playable game builds (alpha, beta, prototype, early access)
+Games (alpha, beta, prototype, early access, full release)
 
-Digital downloads
+Tools and utilities (desktop apps, scripts, modding tools, Discord bots)
 
-Community features (Discord, forums, feedback systems)
+Websites and web applications
 
-Developer content (devlogs, tutorials, behind‑the‑scenes material)
+APIs, dashboards, online services
 
-Merch, digital assets, or cosmetic items
+Documentation, tutorials, devlogs, and educational content
 
-Testing programs or closed playtests
+Digital assets (textures, models, audio, code snippets)
+
+Community platforms (Discord, forums, social media)
 
 The Studio may modify, expand, or discontinue any service at any time.
 
@@ -28,55 +29,70 @@ You agree to:
 
 Use Studio products legally and respectfully
 
-Not exploit bugs, cheats, or vulnerabilities
+Not exploit bugs, vulnerabilities, or unintended behaviour
 
-Not redistribute, leak, or share private builds without permission
+Not reverse‑engineer, decompile, or modify Studio software unless explicitly allowed
 
-Not reverse‑engineer, decompile, or modify Studio software
+Not redistribute or resell Studio content
 
-Follow community rules on Discord, social platforms, or game servers
+Not impersonate Studio staff or misrepresent affiliation
 
-Violation of these rules may result in revoked access to Studio services.
+Follow community rules on Discord or other platforms
 
-4. Early Access, Prototypes & Experimental Builds
-404Bit Studios frequently releases unfinished or experimental content.
-By using these builds, you acknowledge:
+Violation may result in revoked access to Studio services.
+
+4. Early Access, Experimental Tools & Prototypes
+Many Studio products are experimental, including:
+
+Early game builds
+
+In‑development tools
+
+Prototype features
+
+Unfinished websites or dashboards
+
+By using these, you acknowledge:
 
 Features may change or be removed
 
-Saves may break
-
-Performance may vary
+Data may reset or be wiped
 
 Bugs, crashes, and instability are expected
 
-No guarantee of final release or long‑term support
+No guarantee of long‑term support
 
-You participate in early builds at your own risk.
+You use experimental content at your own risk.
 
-5. Payments, Purchases & Refunds
+5. Payments, Subscriptions & Refunds
 5.1 Payments
-Payments for games, digital items, or services must be made through approved platforms (Steam, itch.io, website checkout, etc.).
+Payments for games, tools, or services must be made through approved platforms.
 
 5.2 Refunds
 Refunds follow the rules of the platform you purchased from.
-For direct purchases from the Studio:
+For direct Studio purchases:
 
 Refunds are not guaranteed
 
-Refunds may be denied for digital goods already downloaded or accessed
+Digital goods are typically non‑refundable
 
-Chargebacks without communication may result in account restrictions
+Chargebacks without communication may result in service restrictions
 
-5.3 Donations
-Voluntary donations are non‑refundable.
+5.3 Subscriptions (if applicable)
+If the Studio offers subscription‑based services:
+
+Billing cycles are clearly stated
+
+You may cancel at any time
+
+Access continues until the end of the paid period
 
 6. Intellectual Property
-6.1 Studio Rights
-All games, assets, artwork, code, music, branding, and digital content created by 404Bit Studios remain the exclusive property of the Studio unless explicitly stated otherwise.
+6.1 Studio Ownership
+All Studio creations — including games, tools, websites, code, assets, branding, and documentation — remain the exclusive property of 404Bit Studios unless explicitly stated otherwise.
 
-6.2 User Rights
-When you purchase or download a Studio product, you receive a license to use it, not ownership of the underlying content.
+6.2 User License
+Users receive a non‑exclusive, non‑transferable license to use Studio products for their intended purpose.
 
 You may not:
 
@@ -87,37 +103,39 @@ Claim Studio content as your own
 Use Studio assets in your own projects without written permission
 
 6.3 Fan Content
-Fan art, fan videos, streams, and non‑commercial fan projects are allowed and encouraged, provided they:
+Fan art, streams, videos, and non‑commercial fan projects are allowed and encouraged, provided they:
 
 Do not claim to be official
 
 Do not sell Studio assets
 
-Do not misrepresent the Studio or its products
+Do not misrepresent the Studio
 
-7. Community Guidelines
-When participating in Studio communities (Discord, forums, streams), you agree not to:
+7. Website & Tool Usage
+When using Studio websites or tools, you agree not to:
 
-Harass, threaten, or abuse others
+Attempt to bypass security or authentication
 
-Post illegal or harmful content
+Abuse APIs or automated systems
 
-Spam or disrupt community spaces
+Upload harmful or malicious content
 
-Impersonate Studio staff
+Use tools for illegal or harmful purposes
 
-The Studio may remove or ban users who violate these rules.
+The Studio may limit or revoke access if misuse is detected.
 
 8. Data & Privacy
-The Studio may collect basic information such as:
+The Studio may collect:
 
 Crash logs
 
-Gameplay analytics
+Usage analytics
 
 Account or login data
 
 Feedback submitted by users
+
+Technical information required for service functionality
 
 This data is used to improve Studio products.
 The Studio does not sell personal data.
@@ -127,22 +145,22 @@ The Studio does not guarantee:
 
 Continuous uptime
 
-Bug‑free gameplay
-
 Permanent availability of online features
 
 Preservation of user data or saves
+
+Compatibility with all systems or devices
 
 Online services may be modified or discontinued at any time.
 
 10. Liability Limitations
 To the fullest extent permitted by law:
 
-The Studio is not responsible for damages, losses, or issues arising from the use of its products
+Studio products are provided “as‑is”
 
-All content is provided “as‑is”
+The Studio is not responsible for damages, data loss, or issues arising from use
 
-The Studio is not liable for third‑party platform issues (Steam, Discord, etc.)
+The Studio is not liable for third‑party platform outages (Steam, Discord, hosting providers, etc.)
 
 11. Termination of Access
 The Studio may suspend or terminate access if:
@@ -154,7 +172,7 @@ You misuse Studio software or services
 You engage in harmful behaviour toward the community or staff
 
 12. Changes to Terms
-404Bit Studios may update these Terms at any time.
+The Studio may update these Terms at any time.
 Continued use of Studio services means you accept the updated Terms.
 
 13. Contact Information
@@ -162,5 +180,5 @@ For support or inquiries:
 
 404Bit Studios  
 Email: broadjim1996@gmail.com  
-Discord: 404bitstudios  
+Discord: 404bitstudios 
 Website: 404bitstudios.co.uk
