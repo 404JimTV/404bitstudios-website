@@ -115,13 +115,6 @@ header {
         opacity: 0.8;
     }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #000000;
-    margin-top: 60px;
-    opacity: 0.8;
-}
 
 .projects-hero {
     text-align: center;
@@ -304,3 +297,10 @@ footer {
         color: #000;
     }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+    margin-top: 60px;
+    opacity: 0.8;
+}
