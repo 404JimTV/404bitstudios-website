@@ -301,6 +301,10 @@ header {
     align-items: center;
     gap: 20px;
 }
+.partner-info {
+    max-width: 600px;
+}
+
 
 .partner-logo {
     width: 140px;
