@@ -244,3 +244,124 @@ footer {
         background: #00eaff;
         color: #000;
     }
+.projects-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .projects-hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        color: #00eaff;
+    }
+
+    .projects-hero p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+.projects-list {
+    display: grid;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.project-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+.project-card h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .project-btn:hover {
+        background: #00eaff;
+        color: #000;
+    }
+.partners-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .partner-hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        color: #00eaff;
+    }
+
+    .partners-hero p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+.partners-list {
+    display: grid;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.partners-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+.partners-card h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 15px;
+}
+
+.partners-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.partners-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .partners-btn:hover {
+        background: #00eaff;
+        color: #000;
+    }
+
