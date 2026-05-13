@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Name – 404Bit Studios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">404Bit Studios</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+</header>
+
+<section class="project-hero">
+    <h1>Project Name</h1>
+    <p>A short tagline or description of the project.</p>
+</section>
+
+<section class="project-content">
+    <h2>About the Project</h2>
+    <p>Explain what the project is, why you're making it, and what makes it cool.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Feature one</li>
+        <li>Feature two</li>
+        <li>Feature three</li>
+    </ul>
+
+    <h2>Development Progress</h2>
+    <p>Talk about what’s done, what’s planned, and what’s coming next.</p>
+
+    <a class="project-btn" href="#">Download / Play / GitHub</a>
+</section>
+
+<footer>
+    © 2026 404Bit Studios
+</footer>
+
+</body>
+</html>
