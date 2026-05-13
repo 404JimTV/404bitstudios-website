@@ -115,67 +115,6 @@ header {
         opacity: 0.8;
     }
 
-.partners {
-    text-align: center;
-    padding: 80px 20px;
-    background: #000;
-}
-
-.partners {
-    padding: 60px 20px;
-    background: #000;
-    text-align: center;
-}
-
-    .partners h2 {
-        font-family: 'Press Start 2P', cursive;
-        font-size: 24px;
-        margin-bottom: 40px;
-        color: #00eaff;
-    }
-
-/* Side-by-side layout */
-.partner-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-/* Logo on the left */
-.partner-logo {
-    width: 80px; /* adjust size */
-    flex-shrink: 0;
-}
-
-/* Text on the right */
-.partner-info h3 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #00eaff;
-}
-
-.partner-info p {
-    font-size: 14px;
-    margin-bottom: 15px;
-    color: #ccc;
-}
-
-/* Button */
-.partner-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #00eaff;
-    color: #000;
-    text-decoration: none;
-    font-family: 'Press Start 2P', cursive;
-    border-radius: 6px;
-}
-
 footer {
     text-align: center;
     padding: 20px;
