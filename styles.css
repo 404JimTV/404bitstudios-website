@@ -296,6 +296,12 @@ header {
         background: #00eaff;
         color: #000;
     }
+.partner-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .partner-logo {
     width: 140px;
     padding: 10px;
