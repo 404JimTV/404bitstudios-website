@@ -296,7 +296,11 @@ header {
         background: #00eaff;
         color: #000;
     }
-
+.partner-logo{
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+    filter: drop-shadow(0 0 6px #00eaff);
 footer {
     text-align: center;
     padding: 20px;
