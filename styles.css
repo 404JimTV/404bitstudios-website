@@ -1,0 +1,405 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    margin: 0;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 40px;
+    background: #000000;
+    backdrop-filter: none;
+    position: sticky;
+    top: 0;
+}
+
+    header .logo {
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    header nav a {
+        color: #00eaff;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+.logo img {
+    height: 100px;
+    width: auto;
+    display: block;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 120px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: 1;
+    }
+
+    .hero > * {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        line-height: 1.6;
+        letter-spacing: 2px;
+    }
+
+    .hero p {
+        font-size: 48px;
+        opacity: 0.8;
+    }
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 2px solid #00eaff; /* cyan border */
+    color: #00eaff; /* cyan text */
+    background: transparent; /* transparent background */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 25px;
+    transition: 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .btn:hover {
+        background: #00eaff; /* cyan fill */
+        color: #000; /* black text */
+    }
+
+
+.cta {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #000000;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+
+.mission {
+    padding: 80px 20px;
+    text-align: center;
+    background: #000;
+}
+
+    .mission h2 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .mission p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+
+.projects-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .projects-hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        color: #00eaff;
+    }
+
+    .projects-hero p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+.projects-list {
+    display: grid;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.project-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+.project-card h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .project-btn:hover {
+        background: #00eaff;
+        color: #000;
+    }
+.projects-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .projects-hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        color: #00eaff;
+    }
+
+    .projects-hero p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+.projects-list {
+    display: grid;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.project-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+.project-card h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .project-btn:hover {
+        background: #00eaff;
+        color: #000;
+    }
+.partners-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .partners-hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        color: #00eaff;
+    }
+
+    .partners-hero p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+.partners-list {
+    display: grid;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.partners-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+.partners-card h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 15px;
+}
+
+.partners-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.partners-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .partners-btn:hover {
+        background: #00eaff;
+        color: #000;
+    }
+.partner-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.partner-info {
+    max-width: 600px;
+}
+
+
+.partner-logo {
+    width: 140px;
+    padding: 10px;
+    border: 2px solid #00eaff;
+    border-radius: 8px;
+    background: #000;
+    display: block;
+    margin: 0 20px 0 0; /* normal spacing, no auto-centering */
+    filter: drop-shadow(0 0 6px #00eaff);
+}
+.tools-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('sitebackground.png') no-repeat center center/cover;
+}
+
+    .tools-hero h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 28px;
+        color: #00eaff;
+    }
+
+    .tools-hero p {
+        font-size: 18px;
+        opacity: 0.8;
+    }
+
+.tools-list {
+    display: grid;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.tools-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+    .tools-card h2 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+        color: #00eaff;
+        margin-bottom: 15px;
+    }
+
+    .tools-card p {
+        color: #ccc;
+        margin-bottom: 20px;
+    }
+.discord-card {
+    background: #0a0a0a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 12px #00eaff23;
+}
+
+    .discord-card h2 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+        color: #00eaff;
+        margin-bottom: 15px;
+    }
+
+    .discord-card p {
+        color: #ccc;
+        margin-bottom: 20px;
+    }
+
+.discord-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .discord-btn:hover {
+        background: #00eaff;
+        color: #000;
+    }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+    margin-top: 60px;
+    opacity: 0.8;
+}
