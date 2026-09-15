@@ -376,7 +376,7 @@ header {
     }
 
     .discord-card p {
-        color: #000;
+        color: #ffffff;
         margin-bottom: 20px;
     }
 
@@ -393,7 +393,7 @@ header {
 
     .discord-btn:hover {
         background: #00eaff;
-        color: #000;
+        color: #ffffff;
     }
 
 footer {
