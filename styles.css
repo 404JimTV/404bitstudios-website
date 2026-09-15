@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     align-content: center;
     padding: 20px 40px;
-    background: #02005C;
+    background: #01003D;
     backdrop-filter: none;
     position: sticky;
     top: 0;
@@ -399,7 +399,7 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background: #02005C;
+    background: #01003D;
     margin-top: 60px;
     opacity: 0.8;
 }
