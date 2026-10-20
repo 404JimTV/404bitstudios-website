@@ -1,7 +1,7 @@
 :root {
     --bg-main: #0B1338;
-    --bg-secondary: #0B1338;
-    --bg-header: #0B1338;
+    --bg-secondary: #101944;
+    --bg-header: #08102f;
 
     --accent-cyan: #00eaff;
 
@@ -9,45 +9,75 @@
     --text-secondary: #b3b3c9;
 }
 
+/* ========================= */
+/* GLOBAL */
+/* ========================= */
 
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
     background: var(--bg-main);
-    margin: 0;
     color: var(--text-main);
+    line-height: 1.6;
 }
+
+h1,
+h2,
+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
 
 header {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     padding: 20px 40px;
     background: var(--bg-header);
+    border-bottom: 2px solid var(--accent-cyan);
+
     position: sticky;
     top: 0;
-}
-
-header .logo {
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-header nav a {
-    color: var(--accent-cyan);
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
+    z-index: 1000;
 }
 
 .logo img {
-    height: 100px;
+    height: 90px;
     width: auto;
     display: block;
 }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--accent-cyan);
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
 
 .hero {
     position: relative;
@@ -57,42 +87,53 @@ header nav a {
 }
 
 .hero::before {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45);
-    z-index: 1;
+    background: rgba(0,0,0,.45);
 }
 
 .hero > * {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .hero h1 {
-    font-family: 'Press Start 2P', cursive;
     font-size: 28px;
     line-height: 1.6;
-    letter-spacing: 2px;
+    color: var(--accent-cyan);
+    margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 48px;
-    opacity: 0.8;
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+}
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.btn,
+.discord-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-top: 25px;
+
+    border-radius: 8px;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+
+    transition: 0.3s ease;
 }
 
 .btn {
-    display: inline-block;
-    padding: 12px 28px;
     border: 2px solid var(--accent-cyan);
     color: var(--accent-cyan);
     background: transparent;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-    margin-top: 25px;
-    transition: 0.3s ease;
-    font-family: 'Press Start 2P', cursive;
 }
 
 .btn:hover {
@@ -100,60 +141,293 @@ header nav a {
     color: #000;
 }
 
-.mission {
-    padding: 80px 20px;
+.discord-btn {
+    background: #5865F2;
+    color: white;
+    border: none;
+}
+
+.discord-btn:hover {
+    background: #4752c4;
+    transform: translateY(-2px);
+}
+
+/* ========================= */
+/* SECTION DEFAULTS */
+/* ========================= */
+
+section {
+    padding: 70px 20px;
+}
+
+.mission,
+.partners-intro,
+.devlog-intro {
     text-align: center;
-    background: var(--bg-main);
+    max-width: 1000px;
+    margin: auto;
 }
 
-.mission h2 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 32px;
-    margin-bottom: 10px;
+.mission h2,
+.partners-intro h2,
+.devlog-intro h2 {
+    margin-bottom: 25px;
 }
 
-.mission p {
-    font-size: 18px;
-    opacity: 0.8;
+.mission p,
+.partners-intro p,
+.devlog-intro p {
+    color: var(--text-secondary);
 }
+
+/* ========================= */
+/* CARD SYSTEM */
+/* ========================= */
 
 .project-card,
-.partners-card,
-.tools-card,
-.discord-card {
+.devlog-card,
+.partner-card,
+.about-card,
+.contact-card,
+.partner-box,
+.status-card {
     background: var(--bg-secondary);
-    padding: 30px;
-    border-radius: 10px;
     border: 2px solid var(--accent-cyan);
-    box-shadow: 0 0 12px #00eaff23;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    box-shadow: 0 0 15px rgba(0,234,255,.12);
 }
 
-.project-card h2,
-.partners-card h2,
-.tools-card h2,
-.discord-card h2 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
+/* ========================= */
+/* PROJECTS */
+/* ========================= */
+
+.project-grid,
+.status-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    max-width: 400px;
+}
+
+.project-card h2 {
     color: var(--accent-cyan);
-    margin-bottom: 15px;
-}
-
-.project-card p,
-.partners-card p,
-.tools-card p {
-    color: var(--text-secondary);
     margin-bottom: 20px;
 }
 
-.discord-card p {
-    color: var(--text-main);
+.project-card p {
+    color: var(--text-secondary);
 }
+
+/* ========================= */
+/* STATUS */
+/* ========================= */
+
+.status-card {
+    width: 250px;
+    text-align: center;
+}
+
+/* ========================= */
+/* DEVLOG */
+/* ========================= */
+
+.devlog-card {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.devlog-entry {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.devlog-date {
+    color: var(--accent-cyan);
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.devlog-card h2 {
+    margin-bottom: 20px;
+}
+
+.devlog-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--accent-cyan);
+}
+
+.devlog-card ul {
+    padding-left: 25px;
+}
+
+.devlog-card li {
+    margin-bottom: 8px;
+}
+
+/* ========================= */
+/* ABOUT */
+/* ========================= */
+
+.about-card {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-card ul {
+    padding-left: 25px;
+}
+
+/* ========================= */
+/* PARTNERS */
+/* ========================= */
+
+.partner-card,
+.partner-box {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.partner-card img {
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.partner-card h2 {
+    color: var(--accent-cyan);
+}
+
+/* ========================= */
+/* DISCORD */
+/* ========================= */
+
+.discord-card {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* ========================= */
+/* CONTACT */
+/* ========================= */
+
+.contact-card {
+    max-width: 900px;
+    margin: auto;
+}
+
+.contact-card form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact-card label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact-card input,
+.contact-card textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--accent-cyan);
+
+    background: #0b1338;
+    color: white;
+}
+
+.contact-card textarea {
+    resize: vertical;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus {
+    outline: none;
+    border-color: white;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
     background: var(--bg-header);
-    margin-top: 60px;
-    opacity: 0.8;
+    border-top: 2px solid var(--accent-cyan);
+    margin-top: 50px;
 }
 
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: var(--accent-cyan);
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 10px;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .hero h1 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .project-grid,
+    .status-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card,
+    .status-card {
+        width: 100%;
+    }
+}
