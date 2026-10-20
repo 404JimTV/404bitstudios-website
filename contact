@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | 404Bit Studios</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="404Bit Studios Logo">
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="devlog.html">Devlog</a>
+            <a href="partners.html">Partners</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            Have a question, business enquiry, partnership request,
+            or simply want to get in touch?
+        </p>
+
+    </section>
+
+    <!-- CONTACT INTRO -->
+    <section class="contact-section">
+
+        <div class="contact-card">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                We'd love to hear from you. Whether you're interested in our
+                projects, community, partnerships, or future opportunities,
+                feel free to reach out.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- EMAIL -->
+    <section class="contact-section">
+
+        <div class="contact-card">
+
+            <h2>📧 Email</h2>
+
+            <p>
+                For general enquiries, business opportunities,
+                or partnership requests.
+            </p>
+
+            <p>
+                contact@404bitstudios.co.uk
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- DISCORD -->
+    <section class="contact-section">
+
+        <div class="contact-card">
+
+            <h2>💬 Discord</h2>
+
+            <p>
+                Join the community, follow our development journey,
+                and connect with us directly.
+            </p>
+
+            <a href="https://discord.gg/PRMEaa5HGv"
+               target="_blank"
+               class="btn">
+                Join Discord
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- PARTNERSHIPS -->
+    <section class="contact-section">
+
+        <div class="contact-card">
+
+            <h2>🤝 Partnerships</h2>
+
+            <p>
+                Interested in collaborating with 404Bit Studios?
+                We're always happy to discuss partnership opportunities
+                and community projects.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-section">
+
+        <div class="contact-card">
+
+            <h2>Send A Message</h2>
+
+            <form>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message</label>
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>Crafting Worlds One Line At A Time</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="devlog.html">Devlog</a>
+            <a href="partners.html">Partners</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>© 2026 404Bit Studios</p>
+
+    </footer>
+
+</body>
+
+</html>
