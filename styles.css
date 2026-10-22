@@ -36,6 +36,16 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding: 70px 20px;
+}
+
+section h2 {
+    color: var(--accent-cyan);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 /* ========================= */
 /* HEADER */
 /* ========================= */
@@ -44,7 +54,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 20px 40px;
+
     background: var(--bg-header);
     border-bottom: 2px solid var(--accent-cyan);
 
@@ -62,13 +74,14 @@ header {
 nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 nav a {
     color: var(--accent-cyan);
-    margin-left: 20px;
     font-weight: bold;
-    transition: 0.3s ease;
+    margin-left: 20px;
+    transition: .3s ease;
 }
 
 nav a:hover {
@@ -81,27 +94,30 @@ nav a:hover {
 
 .hero {
     position: relative;
+
     text-align: center;
+
     padding: 120px 20px;
-    background: url('sitebackground.png') no-repeat center center/cover;
+
+    background: url("sitebackground.png") center center / cover no-repeat;
 }
 
 .hero::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,.45);
+    background: rgba(0, 0, 0, .45);
 }
 
-.hero > * {
+.hero>* {
     position: relative;
     z-index: 2;
 }
 
 .hero h1 {
+    color: var(--accent-cyan);
     font-size: 28px;
     line-height: 1.6;
-    color: var(--accent-cyan);
     margin-bottom: 20px;
 }
 
@@ -109,7 +125,6 @@ nav a:hover {
     max-width: 800px;
     margin: auto;
     font-size: 18px;
-    color: white;
 }
 
 /* ========================= */
@@ -119,15 +134,16 @@ nav a:hover {
 .btn,
 .discord-btn {
     display: inline-block;
-    padding: 12px 28px;
+
     margin-top: 25px;
+    padding: 12px 28px;
 
     border-radius: 8px;
 
     font-family: 'Press Start 2P', cursive;
     font-size: 12px;
 
-    transition: 0.3s ease;
+    transition: .3s ease;
 }
 
 .btn {
@@ -138,13 +154,12 @@ nav a:hover {
 
 .btn:hover {
     background: var(--accent-cyan);
-    color: #000;
+    color: black;
 }
 
 .discord-btn {
     background: #5865F2;
     color: white;
-    border: none;
 }
 
 .discord-btn:hover {
@@ -153,25 +168,19 @@ nav a:hover {
 }
 
 /* ========================= */
-/* SECTION DEFAULTS */
+/* CENTERED SECTIONS */
 /* ========================= */
 
-section {
-    padding: 70px 20px;
-}
-
 .mission,
+.featured-projects,
+.status-section,
+.partner-highlight,
+.discord-card,
 .partners-intro,
 .devlog-intro {
-    text-align: center;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
-}
-
-.mission h2,
-.partners-intro h2,
-.devlog-intro h2 {
-    margin-bottom: 25px;
+    text-align: center;
 }
 
 .mission p,
@@ -192,34 +201,35 @@ section {
 .partner-box,
 .status-card {
     background: var(--bg-secondary);
-    border: 2px solid var(--accent-cyan);
 
+    border: 2px solid var(--accent-cyan);
     border-radius: 12px;
 
     padding: 30px;
 
-    box-shadow: 0 0 15px rgba(0,234,255,.12);
+    box-shadow: 0 0 15px rgba(0, 234, 255, .12);
 }
 
 /* ========================= */
 /* PROJECTS */
 /* ========================= */
 
-.project-grid,
-.status-grid {
+.project-grid {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+
     gap: 30px;
+    margin-top: 30px;
 }
 
 .project-card {
-    max-width: 400px;
+    width: 400px;
 }
 
-.project-card h2 {
+.project-card h3 {
     color: var(--accent-cyan);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .project-card p {
@@ -230,6 +240,15 @@ section {
 /* STATUS */
 /* ========================= */
 
+.status-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 30px;
+    margin-top: 30px;
+}
+
 .status-card {
     width: 250px;
     text-align: center;
@@ -239,31 +258,27 @@ section {
 /* DEVLOG */
 /* ========================= */
 
+.devlog-entry {
+    padding: 20px;
+}
+
 .devlog-card {
     max-width: 1000px;
     margin: auto;
 }
 
-.devlog-entry {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .devlog-date {
-    color: var(--accent-cyan);
-    font-weight: bold;
     display: inline-block;
     margin-bottom: 20px;
-}
 
-.devlog-card h2 {
-    margin-bottom: 20px;
+    color: var(--accent-cyan);
+    font-weight: bold;
 }
 
 .devlog-card h3 {
+    color: var(--accent-cyan);
     margin-top: 20px;
     margin-bottom: 10px;
-    color: var(--accent-cyan);
 }
 
 .devlog-card ul {
@@ -278,14 +293,14 @@ section {
 /* ABOUT */
 /* ========================= */
 
-.about-card {
-    max-width: 1000px;
-    margin: auto;
-}
-
 .about-section {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.about-card {
+    max-width: 1000px;
+    margin: auto;
 }
 
 .about-card ul {
@@ -304,23 +319,9 @@ section {
 }
 
 .partner-card img {
-    max-width: 250px;
     width: 100%;
+    max-width: 250px;
     margin-bottom: 20px;
-}
-
-.partner-card h2 {
-    color: var(--accent-cyan);
-}
-
-/* ========================= */
-/* DISCORD */
-/* ========================= */
-
-.discord-card {
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
 }
 
 /* ========================= */
@@ -345,12 +346,13 @@ section {
 
 .contact-card input,
 .contact-card textarea {
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid var(--accent-cyan);
-
     background: #0b1338;
     color: white;
+
+    border: 1px solid var(--accent-cyan);
+    border-radius: 8px;
+
+    padding: 12px;
 }
 
 .contact-card textarea {
@@ -369,10 +371,18 @@ section {
 
 footer {
     text-align: center;
+
     padding: 40px 20px;
+
     background: var(--bg-header);
+
     border-top: 2px solid var(--accent-cyan);
+
     margin-top: 50px;
+}
+
+footer p {
+    margin: 10px 0;
 }
 
 .footer-links {
@@ -429,5 +439,6 @@ footer {
     .project-card,
     .status-card {
         width: 100%;
+        max-width: 500px;
     }
 }
