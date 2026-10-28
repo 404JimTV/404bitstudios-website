@@ -444,6 +444,11 @@ footer p {
         width: 100%;
         max-width: 500px;
     }
+    .podcast-section {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
     .podcast-highlight {
     max-width: 900px;
     margin: 80px auto;
