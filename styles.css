@@ -400,50 +400,6 @@ footer p {
 .footer-links a:hover {
     color: white;
 }
-
-/* ========================= */
-/* MOBILE */
-/* ========================= */
-
-@media (max-width: 768px) {
-
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav {
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    nav a {
-        margin: 10px;
-    }
-
-    .logo img {
-        height: 70px;
-    }
-
-    .hero h1 {
-        font-size: 18px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .project-grid,
-    .status-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project-card,
-    .status-card {
-        width: 100%;
-        max-width: 500px;
-    }
 /* ========================= */
 /* PODCAST */
 /* ========================= */
@@ -498,3 +454,47 @@ footer p {
 
     text-align: center;
 }
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 10px;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .hero h1 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .project-grid,
+    .status-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card,
+    .status-card {
+        width: 100%;
+        max-width: 500px;
+    }
