@@ -415,7 +415,6 @@ footer p {
 .podcast-highlight {
     max-width: 1000px;
     margin: 60px auto;
-    text-align: center;
 
     background: var(--bg-secondary);
 
@@ -424,7 +423,9 @@ footer p {
 
     padding: 40px;
 
-    box-shadow: 0 0 15px rgba(139, 92, 246, .25);
+    box-shadow: 0 0 15px rgba(139,92,246,.25);
+
+    text-align: center;
 }
 
 .podcast-highlight h2 {
