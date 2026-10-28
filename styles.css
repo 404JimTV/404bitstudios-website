@@ -444,31 +444,57 @@ footer p {
         width: 100%;
         max-width: 500px;
     }
-    .podcast-section {
+/* ========================= */
+/* PODCAST */
+/* ========================= */
+
+.podcast-section {
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 60px 0;
 }
-    .podcast-highlight {
+
+.podcast-highlight {
     max-width: 900px;
     margin: 80px auto;
     text-align: center;
 
-    background: #101944;
+    background: var(--bg-secondary);
 
-    border: 2px solid #8B5CF6;
+    border: 2px solid var(--accent-purple);
     border-radius: 12px;
 
     padding: 40px;
+
+    box-shadow: 0 0 15px rgba(139, 92, 246, .25);
 }
 
 .podcast-highlight h2 {
-    color: #8B5CF6;
+    color: var(--accent-purple);
     margin-bottom: 20px;
 }
 
 .podcast-highlight p {
+    color: var(--text-secondary);
     margin-bottom: 20px;
 }
 
+/* Discord now matches site cards */
+
+.discord-card {
+    max-width: 1000px;
+    margin: 60px auto;
+
+    background: var(--bg-secondary);
+
+    border: 2px solid var(--accent-cyan);
+    border-radius: 12px;
+
+    padding: 40px;
+
+    box-shadow: 0 0 15px rgba(0, 234, 255, .12);
+
+    text-align: center;
 }
