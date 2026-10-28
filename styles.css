@@ -413,8 +413,8 @@ footer p {
 }
 
 .podcast-highlight {
-    max-width: 900px;
-    margin: 80px auto;
+    max-width: 1000px;
+    margin: 60px auto;
     text-align: center;
 
     background: var(--bg-secondary);
