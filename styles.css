@@ -7,6 +7,9 @@
 
     --text-main: #ffffff;
     --text-secondary: #b3b3c9;
+    --accent-cyan: #00eaff;
+    --accent-purple: #8B5CF6;
+    
 }
 
 /* ========================= */
@@ -368,6 +371,23 @@ nav a:hover {
 /* ========================= */
 /* FOOTER */
 /* ========================= */
+
+.podcast-highlight{
+    text-align:center;
+    max-width:1000px;
+    margin:0 auto;
+    padding:80px 20px;
+}
+
+.podcast-highlight h2{
+    color:#8B5CF6;
+    margin-bottom:20px;
+}
+
+.podcast-highlight p{
+    color:var(--text-secondary);
+    margin-bottom:20px;
+}
 
 footer {
     text-align: center;
